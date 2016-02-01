@@ -1,0 +1,62 @@
+memo of the paper work
+
+----------------proper use of word------------------
+[教育质量]：
+educational quality of a school
+
+[学校利用资金的能力]：
+(candidate) school’s (demonstrated) potential for effective use of （private） funding 
+= school’s effectiveness of using funding
+
+[我们对roi的理解]：
+proposed concept of a return-on-investment (ROI) 
+
+[“难兄难弟”间的互相影响]：
+mutual influence among a cluster of poor schools
+
+----------------section------------------
+
+[1]:Introduction(郑亦平)
+    我们对问题的理解，我们的方案设计，我们考虑的所有因素
+
+[2］:General Assumptions(共同维护)
+    假设
+
+[3]: Terminology and Symbol Description（共同维护）
+    变量定义
+
+[4]: define the criterion of education quality（EQ） of a school(戴为)
+    我们对Quality（衡量标准）的定义：AHP方法
+    对此标准的解读
+    此标准是我们的优化目标，既不是完全用来描述学生水平的，也不是决定学生水平的。我们只是认为，这些因素可以纳入学校Quality的考量。这些因素之间的逻辑关系和影响这些因素的外部因素，在后面因果分析里面考虑。
+
+[5]:find the relationship between donation and EQI(education quality improvement) (5.1郭嘉丞,5.2戴维)
+    数据处理和基本规律探寻
+    Quality-funding Plot 及相关的因果分析
+    上面给出的是唯象的拟合结论，导数值就是Total effect
+    但由于下面计算投资回报时需要考虑两个效应的叠加，这里需要算出Causal effect 
+    5.1拟合方法和结论 optimization method and conclusion
+    5.2因果分析——Causal effect Analysis
+
+[6]:region-based long-term investment strategy（6.1郑亦平、6.2...郭嘉丞）
+    6.1 find region of interst
+    using Kmeans Clustering Algorithm 
+
+    6.2 地区关联矩阵的定义和计算
+    联动影响和学校影响力（组织合作活动的热情等等）有关，也和学校之间的距离有关，越近影响越显著，太远趋于0. 考虑房价递减模型，这里用了反比关系。
+    关联矩阵和距离有关，待定参数描述每所学校的影响力
+
+    6.3 用上面的所有结论，计算我们最优化的投资方案
+    并和一些典型方案进行比较
+    … … 我们又考虑了reputation，将来你们可以自己给这两个因素之间的权重
+
+[7]:flow chart of the whole strategy(戴维)
+
+[8]strength and weakness of our model （共同维护）
+	我们的模型的不足之处：
+	由于时间和计算量（非线性优化），没能算全美的所有区域，[肉眼筛选了一些区域]
+	Quality-funding因果分析不全面，忽略了大部分因素。原因是严格的分析需要用到大量的统计数据，工作量不亚于这个模型本身。因此我们用了一个基本方法
+	假设的不合理之处？
+	未考虑的因素
+	实际操作中需要增加考虑的因素
+
