@@ -1,0 +1,17 @@
+
+
+The result of our statistical analysis shows that, the region of … is relatively backward (by our definition of quality) among the whole country, while quite a few poor schools gather in this region.
+Our modeling suggests that investing money to these schools with our particular strategy can create the bigger positive effect than other particular and representative investment strategies.
+
+
+%......
+定性描述结论
+To understand this result in a plain way, we can consider the marginal utility of our investment on schools of different levels. As the data suggest, in a certain domain， the relationship between the amount of funding and school quality can be approximately fitted into a exponential function. And we developed a theory of the cause-and-effect relationship between funding and school quality, where we did the causal analysis besides the data processing. And thus we are able to prove that with our funding, together with the currently existing funding coming from other foundations and the government, our strategy makes the best return in total. 
+We choose to divide our funding among schools in this … region instead of among the weak schools scattering all over USA because we take clustering effect into consideration, which is to say, the system consisting of those schools we are investing on have a dynamic internal linkage. With the optimized strategy of distribution we calculated, we can have the schools influencing each other and consequently make the ROI of our investing money the highest.
+%------------------------------------------------------------------------------------------------------------------------------
+
+考虑clustering
+//We know that our investment fund does not work alone to the school. And we do not have special demand for the school on how to use our money. We assume our money is just added to the school’s current funding, and used by the school as usual.
+
+A reasonable idea of considering the marginal utility of the money is adopted. The data suggest a relationship between the amount of funding and school quality.
+Apart from using machine learning algorithm to find the relationship phenomenologically, we also performed a causal analysis on the causal effect of funds on school quality.
